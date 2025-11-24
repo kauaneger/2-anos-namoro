@@ -1,6 +1,6 @@
 .carouselContainer {
   position: relative;
-  max-width: 300px;
+  max-width: 350px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
 
 .carrouselItem img {
   width: 100%;
-  height: 430px;
+  height: 530px;
   object-fit: cover;
   border-radius: 18px;
 }
