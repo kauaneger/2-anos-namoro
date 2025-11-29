@@ -27,7 +27,7 @@ export default function Home() {
     // 🔥 DATA INICIAL EXATA: 1 ano + 360 dias atrás
     const dataInicial = new Date();
     dataInicial.setFullYear(dataInicial.getFullYear() - 1); // menos 1 ano
-    dataInicial.setDate(dataInicial.getDate() - 360); // menos 360 dias
+    dataInicial.setDate(dataInicial.getDate() - 366); // menos 360 dias
 
     const atualizar = () => {
       const agora = new Date();
